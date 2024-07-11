@@ -4,27 +4,44 @@ import { StyleSheet } from 'react-native';
 import { Collapsible } from '@/components/Collapsible';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
+import { Image } from 'react-native';
 
 
 export default function TabTwoScreen() {
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
-      headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}>
-      <Collapsible title="About">
-      <div>This</div>
+    <>
+
+      <Collapsible title="About us">
+
         <ThemedText>
-          This is a sample app that demonstrates how to use the Expo web platform with React
-          Navigation.
+          Zara is one of the largest international fashion companies. It belongs to Inditex,
+          one of the world's largest distribution groups.
         </ThemedText>
+
+        <ThemedText>
+          Zara is one of the largest international fashion companies. It belongs to Inditex,
+          one of the world's largest distribution groups.
+        </ThemedText>
+        <Image
+          style={styles.tinyLogo}
+          source={require('@/assets/img/zara-logo.png')}
+        />
+
+
+
+
       </Collapsible>
-    </ParallaxScrollView>
+
+
+
+
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   headerImage: {
-    color: '#808080',
+    color: '#000000',
     bottom: -90,
     left: -35,
     position: 'absolute',
@@ -33,4 +50,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 8,
   },
+  tinyLogo: {
+    width: 200,
+    height: 200,
+
+  },
+
 });
