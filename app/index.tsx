@@ -11,7 +11,10 @@ export default function HomeScreen() {
         >
          
         </ImageBackground>
+        
       </Link>
+      <Text>... Welcome  to  the  world  of  fashion...</Text>
+
     </View>
   );
 }
