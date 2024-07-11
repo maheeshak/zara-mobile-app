@@ -15,7 +15,8 @@ export default function HomeScreen() {
         </ImageBackground>
       </View>
 
-      <ScrollView style={styles.scrollView} disableScrollViewPanResponder>
+      <ScrollView style={styles.scrollView} 
+      showsVerticalScrollIndicator={false}>
         <View style={styles.container}>
           <ImageBackground
             source={require('@/assets/img/home01.jpg')} 
@@ -31,6 +32,21 @@ export default function HomeScreen() {
 
           <ImageBackground
             source={require('@/assets/img/home03.jpg')} 
+            style={styles.image}
+          >
+          </ImageBackground>
+          <ImageBackground
+            source={require('@/assets/img/home04.jpg')} 
+            style={styles.image}
+          >
+          </ImageBackground>
+          <ImageBackground
+            source={require('@/assets/img/home05.jpg')} 
+            style={styles.image}
+          >
+          </ImageBackground>
+          <ImageBackground
+            source={require('@/assets/img/home06.jpg')} 
             style={styles.image}
           >
           </ImageBackground>
@@ -51,7 +67,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   scrollView: {
-    marginHorizontal: 20,
+   
   },
   logoContainer: {
     position: 'absolute',

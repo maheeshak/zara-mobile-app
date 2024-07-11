@@ -1,4 +1,6 @@
+import { Text } from "react-native";
+
 const Setting = () => {
-  return <div>Welcome to  the settings page </div>;
+  return (<Text>Welcome to  the settings page </Text>);
 };
 export default Setting;
