@@ -11,3 +11,10 @@
 
 4. **Home Screen 03:**
   -![Home Screen ](screenshots/sc004.jpeg)
+
+5. **Search Screen 04:**
+   -![Home Screen ](screenshots/sc007.jpeg)
+
+6. **Search Screen 05:**
+   -![Home Screen ](screenshots/sc008.jpeg)
+   
