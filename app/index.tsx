@@ -6,7 +6,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Link href="/(tabs)">
         <ImageBackground
-          source={require('@/assets/img/zara-logo.png')} // Adjust path if necessary
+          source={require('@/assets/img/zara-logo.png')}
           style={styles.logo}
         >
          
