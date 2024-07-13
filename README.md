@@ -7,7 +7,14 @@
  -![Home Screen](screenshots/sc002.jpeg)
 
 3. **Home Screen 02:**
-  -![Home Screen ](screenshots/sc003.jpeg)
+  -![Home Screen](screenshots/sc003.jpeg)
 
 4. **Home Screen 03:**
-  -![Home Screen ](screenshots/sc004.jpeg)
+  -![Home Screen](screenshots/sc004.jpeg)
+
+5. **Search Screen 04:**
+   -![Search Screen](screenshots/sc005.jpeg)
+
+6. **Search Screen 05:**
+   -![Search Screen](screenshots/sc007.jpeg)
+   

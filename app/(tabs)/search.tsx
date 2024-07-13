@@ -80,6 +80,7 @@ const Search = () => {
             description="22.99 GBP"
             source="https://static.zara.net/assets/public/3358/e541/355742179859/32586881df8b/20120635999-e1/20120635999-e1.jpg?ts=1714739195766&w=563"
           />
+<<<<<<< HEAD
           <Card
             title="Oval CrossBody Bag"
             description="39.99 GBP"
@@ -154,6 +155,8 @@ const Search = () => {
             source="https://static.zara.net/assets/public/82ce/07be/40d545fba85e/9fce33ef2d4e/08741256800-015-e1/08741256800-015-e1.jpg?ts=1707397061277&w=157"
           />
           
+=======
+>>>>>>> refs/remotes/origin/master
           
         </View>
       </ScrollView>
@@ -166,7 +169,11 @@ export default Search;
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "white",
+<<<<<<< HEAD
     //boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+=======
+    boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+>>>>>>> refs/remotes/origin/master
     width: "100%",
     height: "auto",
     zIndex: 100,
@@ -217,7 +224,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#f9f9f9",
     height: 350,
     width: "48%",
+<<<<<<< HEAD
    // boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+=======
+    boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+>>>>>>> refs/remotes/origin/master
     overflow: "hidden", // Hide any overflowed content
   },
   cardTitle: {

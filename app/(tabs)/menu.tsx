@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Text, View, StyleSheet, TextInput } from "react-native";
 
 const Menu = () => {
@@ -47,6 +48,12 @@ const Menu = () => {
         
       </>
     );
+=======
+import { Text } from "react-native";
+
+const Menu = () => {
+    return <Text>Welcome to the Menu </Text>;
+>>>>>>> refs/remotes/origin/master
   };
   export default Menu;
   
