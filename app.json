@@ -27,7 +27,8 @@
       "favicon": "./assets/img/zara-logo.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true
