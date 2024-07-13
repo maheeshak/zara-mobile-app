@@ -16,5 +16,5 @@
    -![Search Screen](screenshots/sc005.jpeg)
 
 6. **Search Screen 05:**
-   -![Search Screen](screenshots/sc008.jpeg)
+   -![Search Screen](screenshots/sc007.jpeg)
    
